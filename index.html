@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/dbd58681fa.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/697c2c5344.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,16 +18,63 @@
             <!--Navigation-->
             <nav class="navbar navbar-expand-md navbar-dark">
                 <a href="#" class="navbar-brand">Secret Santa</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                data-target="navContent" aria-controls="navContent" aria-expanded="false" 
-                aria-label="toggle-navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navContent" aria-controls="navContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-
                 </button>
-            </nav>
-        </section>
-    </div>
 
+                <div class="collapse navbar-collapse justify-content-end" id="navContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Download</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Become a Secret Santa Yourself</h1>
+                    <button class="btn btn-dark btn-lg dowload-btn"><i class="fab fa-apple"></i> Dowload</button>
+                    <button class="btn btn-outline-light btn-lg dowload-btn"><i class="fab fa-google-play"></i> Dowload</button>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="img/iphone6.png" alt="" class="title-image">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="sectionFeatures">
+            <div class="row">
+                <div class="col-lg-4 feature-box">
+                    <i class="fas fa-sleigh fa-3x"></i>
+                    <h3>Find Yourself a Secret Santa</h3>
+                    <p>Enjoy the holiday spirit to the fullest.</p>
+                </div>
+                <div class="col-lg-4 feature-box">
+                    <i class="fas fa-gifts fa-3x"></i>
+                    <h3>Become a Secret Santa Yourself</h3>
+                    <p>Bring joy to the world.</p>
+                </div>
+                <div class="col-lg-4 feature-box ">
+                    <i class="fas fa-gift fa-3x"></i>
+                    <h3>Manage your wishlist</h3>
+                    <p>Keep the record of what you get and what you give.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
