@@ -1,22 +1,29 @@
-:root {
+:root
+{
+    --BG-color: rgb(27, 27, 27);
     --santa-red: #A31123;
     --santa-red-alpha: rgba(163, 17, 34, 0.4);
-    --santa-green: #0A9F99;
+    --santa-green: rgb(8, 138, 77);
 }
-body {
-    background-color: black;
+
+body
+{
+    background-color: var(--BG-color);
 }
-.container-fluid {
+
+.container-fluid
+{
     padding: 0;
 }
 
-#title {
+#title
+{
     background-color: var(--santa-red);
     padding: 3% 15%;
     color: white;
 }
 
-h1 {
+h1{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 3.5rem;
@@ -24,67 +31,73 @@ h1 {
 }
 
 /*NAVBAR*/
-
-.navbar {
+.navbar
+{
     padding-bottom: 4.5rem;
     padding-left: 0;
     width: auto;
 }
 
-.navbar-brand {
+.nav-item
+{
+    padding: 0.1rem;
+}
+
+.nav-link
+{
+    font-size: 1.3rem;
+}
+
+.navbar-brand
+{
     font-family: 'Ubuntu';
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-.nav-item {
-    padding: 0 1rem;
+.download-btn 
+{
+    margin: 4% 3% 4% 0;
 }
 
-.nav-link {
-    font-size: 1.2rem;
-}
-
-.download-btn {
-    margin: 5% 3% 5% 0;
-}
-
-.title-image {
+.title-image
+{
+    margin: 2% 3% 2% 3%;
     width: 55%;
     transform: rotate(10deg);
 }
 
-/*Feature seaction*/
-
-#features {
-    padding: 7% 15%;
-    background-color: white;
+/*Features Section*/
+#features
+{
+    padding: 3% 15%;
+    background-color: var(--BG-color);
 }
 
-.feature-box {
+.feature-box
+{
     text-align: center;
     padding: 5%;
 }
 
-.feature-box h3 {
+.feature-box h3
+{
     font-family: 'Montserrat';
+    color: white;
 }
-
 .feature-box p {
-    color: var(--santa-green);
+    color: #8f8f8f;
 }
-
 .feature-box i {
     color: var(--santa-red);
     margin-bottom: 1rem;
 }
-
-.feature-box i:hover {
+.feature-box i:hover
+{
     color: var(--santa-green);
 }
 
 /*Testimonials*/
-
 #testimonials {
     background-color: var(--santa-red-alpha);
     color: #fff;
@@ -102,4 +115,49 @@ h1 {
     height: 150px;
     border-radius: 50%;
     margin: 2rem;
+}
+
+/*Press section*/
+.press {
+    background-color: var(--santa-red-alpha);
+    text-align: center;
+    padding: 3% auto;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.5rem;
+}
+
+#pricing {
+    background-color: #fff;
+    padding: 4rem;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 2rem;
+}
+
+#cta {
+    background-color: #fff;
+    text-align: center;
+}
+.sm {
+    margin: 2rem 0;
+}
+
+.sm a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    font-size: 1.1rem;
+    transform: 0.4s;
+}
+
+
+.sm a:hover {
+    border-radius: 50%;
 }
