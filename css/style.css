@@ -142,22 +142,32 @@ h1{
 #cta {
     background-color: #fff;
     text-align: center;
-}
-.sm {
-    margin: 2rem 0;
+    
 }
 
-.sm a {
+.social {
+    margin: 3rem 0;
+}
+
+.social a{
+   
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 2.1rem;
+    width: 2.5rem;
     height: 2.1rem;
-    font-size: 1.1rem;
-    transform: 0.4s;
+    font-size: 2rem;
+    transform: 0.5s;
+    color: var(--santa-red-alpha)
 }
 
 
-.sm a:hover {
+.social a:hover {
+    background-color: black;
+    size: 3rem;
     border-radius: 50%;
+}
+
+.social i {
+    color: var(--santa-green);
 }
